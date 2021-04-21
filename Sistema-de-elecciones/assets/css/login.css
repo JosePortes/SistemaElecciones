@@ -1,0 +1,57 @@
+body{
+    
+    background-image: url(/Sistema-de-elecciones/assets/img/elecciones.jpg);
+     
+  }
+  
+  
+  .col-md-6{
+    
+    
+    top: 8em ;
+  }
+  .form-container{
+      background: white;
+      padding: 35px;
+      
+      border-radius:25px ;
+       box-shadow: 0 10px 10px rgba(0,0,0,0.16), 0 10px 10px rgba(0,0,0,0.23);
+  }
+  .form-container h3{
+      padding: 0 0 18px 0;
+      text-align: center;
+      margin-bottom: 10px;
+      
+  }
+  
+
+  
+  .inputWithIcon input[type=text]{
+  
+  padding-left: 30px;
+  
+  }
+  .inputWithIcon input[type=password]{
+  
+  padding-left: 30px;
+  
+  }
+  .inputWithIcon{
+    position: relative;
+    height: 40px;
+  }
+  .inputWithIcon i {
+    position: absolute;
+    left: 0;
+    top: 35px;
+    padding: 9px 8px;
+  
+  }
+  .inputWithIcon input:focus + i{
+    color: blue;
+  }
+  .btnGreen:hover{
+    background-color: white;
+    color: blue;
+  
+  }
